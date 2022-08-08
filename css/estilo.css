@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    border: none;
+}   
+   
+html,body{
+    font-family:'Roboto', sans-serif;
+    box-sizing:border-box;
+    border: none;
+}
+body{
+    background-image: url('../img/Fundo.png');
+    background-size: cover;
+}
+header{
+    text-align: center;}
+   
+#logo{
+    width: 265px;
+    height: 192px;
+    margin-top:90px;
+
+}
+textarea:focus, input:focus {
+    outline: none;
+
+}
+a{
+    font-size:.8rem;
+}
+section{
+    background-color:#fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+    padding:60px 60px;
+    margin-top:10vh ;
+    margin-bottom:20vh;
+    border-radius:10px;
+    text-align: center;
+}
+form{
+    margin-top:30px;
+    margin-bottom:40px ;
+}
+label, input{
+    display:block ;
+    text-align: left;
+    width: 100%;
+    
+}
+label{
+    font-weight: bold;
+    color: #F8EF16;
+    font-size: 22px;
+
+}
+input{
+   border-bottom: solid 2px #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px; 
+
+}
+input:focus{
+   border-bottom: 2px solid white;
+
+}
+#Esqueci-a-senha{
+    text-align: right;
+    display:block;
+    text-decoration: none;
+    color:black;
+}
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 90px;
+    border: none;
+    color:#323232;
+    background-color:#F8EF16 ;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover{
+    background-color:grey ;
+    transition: 0.5s;
+}
+#registro{ 
+    text-decoration: none;
+    margin-bottom: 10px;
+    color:black;
+}
